@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5673FEDA07B19E9B00AF4085 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5607DA4107B19C0000C2151B /* GLUT.framework */; };
+		5673FEDB07B19E9D00AF4085 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5673FEC007B19E0000AF4085 /* OpenGL.framework */; };
+		F7C65D110DBC437600CD3409 /* MilkBlocks-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F7C65D100DBC437600CD3409 /* MilkBlocks-Info.plist */; };
+		F7C65D7D0DBC453E00CD3409 /* Animatable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7C65D490DBC453E00CD3409 /* Animatable.cpp */; };
+		F7C65D7E0DBC453E00CD3409 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = F7C65D4C0DBC453E00CD3409 /* bg.png */; };
+		F7C65D7F0DBC453E00CD3409 /* Bitmap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7C65D4D0DBC453E00CD3409 /* Bitmap.cpp */; };
+		F7C65D800DBC453E00CD3409 /* Block.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7C65D4F0DBC453E00CD3409 /* Block.cpp */; };
+		F7C65D810DBC453E00CD3409 /* block.png in Resources */ = {isa = PBXBuildFile; fileRef = F7C65D510DBC453E00CD3409 /* block.png */; };
+		F7C65D820DBC453E00CD3409 /* blockleft.png in Resources */ = {isa = PBXBuildFile; fileRef = F7C65D520DBC453E00CD3409 /* blockleft.png */; };
+		F7C65D830DBC453E00CD3409 /* blocktop.png in Resources */ = {isa = PBXBuildFile; fileRef = F7C65D530DBC453E00CD3409 /* blocktop.png */; };
+		F7C65D840DBC453E00CD3409 /* blocktopleft.png in Resources */ = {isa = PBXBuildFile; fileRef = F7C65D540DBC453E00CD3409 /* blocktopleft.png */; };
+		F7C65D850DBC453E00CD3409 /* DINNeuzeitGroteskStd-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = F7C65D570DBC453E00CD3409 /* DINNeuzeitGroteskStd-Light.otf */; };
+		F7C65D860DBC453E00CD3409 /* font.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7C65D5A0DBC453E00CD3409 /* font.cpp */; };
+		F7C65D870DBC453E00CD3409 /* Grid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7C65D5C0DBC453E00CD3409 /* Grid.cpp */; };
+		F7C65D880DBC453E00CD3409 /* IPiece.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7C65D5F0DBC453E00CD3409 /* IPiece.cpp */; };
+		F7C65D890DBC453E00CD3409 /* JPiece.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7C65D610DBC453E00CD3409 /* JPiece.cpp */; };
+		F7C65D8A0DBC453E00CD3409 /* LPiece.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7C65D640DBC453E00CD3409 /* LPiece.cpp */; };
+		F7C65D8B0DBC453E00CD3409 /* milkblocks-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F7C65D660DBC453E00CD3409 /* milkblocks-Info.plist */; };
+		F7C65D8D0DBC453E00CD3409 /* milkblocks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7C65D680DBC453E00CD3409 /* milkblocks.cpp */; };
+		F7C65D8E0DBC453E00CD3409 /* OPiece.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7C65D6A0DBC453E00CD3409 /* OPiece.cpp */; };
+		F7C65D8F0DBC453E00CD3409 /* Piece.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7C65D6C0DBC453E00CD3409 /* Piece.cpp */; };
+		F7C65D900DBC453E00CD3409 /* reflectionfade.png in Resources */ = {isa = PBXBuildFile; fileRef = F7C65D720DBC453E00CD3409 /* reflectionfade.png */; };
+		F7C65D910DBC453E00CD3409 /* shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = F7C65D730DBC453E00CD3409 /* shadow.png */; };
+		F7C65D920DBC453E00CD3409 /* SPiece.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7C65D750DBC453E00CD3409 /* SPiece.cpp */; };
+		F7C65D930DBC453E00CD3409 /* texture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7C65D770DBC453E00CD3409 /* texture.cpp */; };
+		F7C65D940DBC453E00CD3409 /* TPiece.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7C65D790DBC453E00CD3409 /* TPiece.cpp */; };
+		F7C65D950DBC453E00CD3409 /* ZPiece.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7C65D7B0DBC453E00CD3409 /* ZPiece.cpp */; };
+		F7C65ECD0DBC512900CD3409 /* libfreetype.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7C65ECC0DBC512900CD3409 /* libfreetype.a */; };
+		F7C65EE00DBC522F00CD3409 /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7C65EDF0DBC522F00CD3409 /* libpng.a */; };
+		F7C65F700DBC58EC00CD3409 /* APPL.icns in Resources */ = {isa = PBXBuildFile; fileRef = F7C65F6F0DBC58EC00CD3409 /* APPL.icns */; };
+		F7C65FBE0DBC6F0800CD3409 /* libz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7C65FBD0DBC6F0800CD3409 /* libz.a */; };
+		F7C660720DBC7B4700CD3409 /* shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = F7C660700DBC7B4700CD3409 /* shadow.png */; };
+		F7C660730DBC7B4700CD3409 /* reflectionfade.png in Resources */ = {isa = PBXBuildFile; fileRef = F7C660710DBC7B4700CD3409 /* reflectionfade.png */; };
+		F7C660790DBC7B7500CD3409 /* DINNeuzeitGroteskStd-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = F7C660740DBC7B7500CD3409 /* DINNeuzeitGroteskStd-Light.otf */; };
+		F7C6607A0DBC7B7500CD3409 /* blocktopleft.png in Resources */ = {isa = PBXBuildFile; fileRef = F7C660750DBC7B7500CD3409 /* blocktopleft.png */; };
+		F7C6607B0DBC7B7500CD3409 /* blocktop.png in Resources */ = {isa = PBXBuildFile; fileRef = F7C660760DBC7B7500CD3409 /* blocktop.png */; };
+		F7C6607C0DBC7B7500CD3409 /* blockleft.png in Resources */ = {isa = PBXBuildFile; fileRef = F7C660770DBC7B7500CD3409 /* blockleft.png */; };
+		F7C6607D0DBC7B7500CD3409 /* block.png in Resources */ = {isa = PBXBuildFile; fileRef = F7C660780DBC7B7500CD3409 /* block.png */; };
+		F7C6607F0DBC7B8000CD3409 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = F7C6607E0DBC7B8000CD3409 /* bg.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5607DA4107B19C0000C2151B /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = /System/Library/Frameworks/GLUT.framework; sourceTree = "<absolute>"; };
+		5673FEC007B19E0000AF4085 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		5673FECD07B19E4E00AF4085 /* MilkBlocks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MilkBlocks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7C65D100DBC437600CD3409 /* MilkBlocks-Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; path = "MilkBlocks-Info.plist"; sourceTree = "<group>"; };
+		F7C65D490DBC453E00CD3409 /* Animatable.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = Animatable.cpp; path = ../Animatable.cpp; sourceTree = SOURCE_ROOT; };
+		F7C65D4A0DBC453E00CD3409 /* Animatable.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = Animatable.h; path = ../Animatable.h; sourceTree = SOURCE_ROOT; };
+		F7C65D4B0DBC453E00CD3409 /* Back.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = Back.h; path = ../Easing/Back.h; sourceTree = SOURCE_ROOT; };
+		F7C65D4C0DBC453E00CD3409 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg.png; path = ../bg.png; sourceTree = SOURCE_ROOT; };
+		F7C65D4D0DBC453E00CD3409 /* Bitmap.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = Bitmap.cpp; path = ../Bitmap.cpp; sourceTree = SOURCE_ROOT; };
+		F7C65D4E0DBC453E00CD3409 /* Bitmap.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = Bitmap.h; path = ../Bitmap.h; sourceTree = SOURCE_ROOT; };
+		F7C65D4F0DBC453E00CD3409 /* Block.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = Block.cpp; path = ../Block.cpp; sourceTree = SOURCE_ROOT; };
+		F7C65D500DBC453E00CD3409 /* Block.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = Block.h; path = ../Block.h; sourceTree = SOURCE_ROOT; };
+		F7C65D510DBC453E00CD3409 /* block.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = block.png; path = ../block.png; sourceTree = SOURCE_ROOT; };
+		F7C65D520DBC453E00CD3409 /* blockleft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blockleft.png; path = ../blockleft.png; sourceTree = SOURCE_ROOT; };
+		F7C65D530DBC453E00CD3409 /* blocktop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blocktop.png; path = ../blocktop.png; sourceTree = SOURCE_ROOT; };
+		F7C65D540DBC453E00CD3409 /* blocktopleft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blocktopleft.png; path = ../blocktopleft.png; sourceTree = SOURCE_ROOT; };
+		F7C65D550DBC453E00CD3409 /* Circ.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = Circ.h; path = ../Easing/Circ.h; sourceTree = SOURCE_ROOT; };
+		F7C65D560DBC453E00CD3409 /* Cubic.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = Cubic.h; path = ../Easing/Cubic.h; sourceTree = SOURCE_ROOT; };
+		F7C65D570DBC453E00CD3409 /* DINNeuzeitGroteskStd-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "DINNeuzeitGroteskStd-Light.otf"; path = "../DINNeuzeitGroteskStd-Light.otf"; sourceTree = SOURCE_ROOT; };
+		F7C65D580DBC453E00CD3409 /* Elastic.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = Elastic.h; path = ../Easing/Elastic.h; sourceTree = SOURCE_ROOT; };
+		F7C65D590DBC453E00CD3409 /* Expo.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = Expo.h; path = ../Easing/Expo.h; sourceTree = SOURCE_ROOT; };
+		F7C65D5A0DBC453E00CD3409 /* font.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = font.cpp; path = ../font/font.cpp; sourceTree = SOURCE_ROOT; };
+		F7C65D5B0DBC453E00CD3409 /* font.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = font.h; path = ../font/font.h; sourceTree = SOURCE_ROOT; };
+		F7C65D5C0DBC453E00CD3409 /* Grid.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = Grid.cpp; path = ../Grid.cpp; sourceTree = SOURCE_ROOT; };
+		F7C65D5D0DBC453E00CD3409 /* Grid.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = Grid.h; path = ../Grid.h; sourceTree = SOURCE_ROOT; };
+		F7C65D5E0DBC453E00CD3409 /* HUD.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = HUD.h; path = ../HUD.h; sourceTree = SOURCE_ROOT; };
+		F7C65D5F0DBC453E00CD3409 /* IPiece.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = IPiece.cpp; path = ../Pieces/IPiece.cpp; sourceTree = SOURCE_ROOT; };
+		F7C65D600DBC453E00CD3409 /* IPiece.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = IPiece.h; path = ../Pieces/IPiece.h; sourceTree = SOURCE_ROOT; };
+		F7C65D610DBC453E00CD3409 /* JPiece.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = JPiece.cpp; path = ../Pieces/JPiece.cpp; sourceTree = SOURCE_ROOT; };
+		F7C65D620DBC453E00CD3409 /* JPiece.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = JPiece.h; path = ../Pieces/JPiece.h; sourceTree = SOURCE_ROOT; };
+		F7C65D630DBC453E00CD3409 /* Linear.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = Linear.h; path = ../Easing/Linear.h; sourceTree = SOURCE_ROOT; };
+		F7C65D640DBC453E00CD3409 /* LPiece.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LPiece.cpp; path = ../Pieces/LPiece.cpp; sourceTree = SOURCE_ROOT; };
+		F7C65D650DBC453E00CD3409 /* LPiece.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = LPiece.h; path = ../Pieces/LPiece.h; sourceTree = SOURCE_ROOT; };
+		F7C65D660DBC453E00CD3409 /* milkblocks-Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; path = "milkblocks-Info.plist"; sourceTree = "<group>"; };
+		F7C65D670DBC453E00CD3409 /* milkblocks.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; name = milkblocks.app; path = build/Debug/milkblocks.app; sourceTree = "<group>"; };
+		F7C65D680DBC453E00CD3409 /* milkblocks.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = milkblocks.cpp; path = ../milkblocks.cpp; sourceTree = SOURCE_ROOT; };
+		F7C65D690DBC453E00CD3409 /* milkblocks.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = milkblocks.h; path = ../milkblocks.h; sourceTree = SOURCE_ROOT; };
+		F7C65D6A0DBC453E00CD3409 /* OPiece.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = OPiece.cpp; path = ../Pieces/OPiece.cpp; sourceTree = SOURCE_ROOT; };
+		F7C65D6B0DBC453E00CD3409 /* OPiece.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = OPiece.h; path = ../Pieces/OPiece.h; sourceTree = SOURCE_ROOT; };
+		F7C65D6C0DBC453E00CD3409 /* Piece.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = Piece.cpp; path = ../Piece.cpp; sourceTree = SOURCE_ROOT; };
+		F7C65D6D0DBC453E00CD3409 /* Piece.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = Piece.h; path = ../Piece.h; sourceTree = SOURCE_ROOT; };
+		F7C65D6E0DBC453E00CD3409 /* Quad.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = Quad.h; path = ../Easing/Quad.h; sourceTree = SOURCE_ROOT; };
+		F7C65D6F0DBC453E00CD3409 /* Quart.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = Quart.h; path = ../Easing/Quart.h; sourceTree = SOURCE_ROOT; };
+		F7C65D700DBC453E00CD3409 /* Quint.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = Quint.h; path = ../Easing/Quint.h; sourceTree = SOURCE_ROOT; };
+		F7C65D710DBC453E00CD3409 /* Random.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = Random.h; path = ../Random.h; sourceTree = SOURCE_ROOT; };
+		F7C65D720DBC453E00CD3409 /* reflectionfade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = reflectionfade.png; path = ../reflectionfade.png; sourceTree = SOURCE_ROOT; };
+		F7C65D730DBC453E00CD3409 /* shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shadow.png; path = ../shadow.png; sourceTree = SOURCE_ROOT; };
+		F7C65D740DBC453E00CD3409 /* Sine.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = Sine.h; path = ../Easing/Sine.h; sourceTree = SOURCE_ROOT; };
+		F7C65D750DBC453E00CD3409 /* SPiece.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SPiece.cpp; path = ../Pieces/SPiece.cpp; sourceTree = SOURCE_ROOT; };
+		F7C65D760DBC453E00CD3409 /* SPiece.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SPiece.h; path = ../Pieces/SPiece.h; sourceTree = SOURCE_ROOT; };
+		F7C65D770DBC453E00CD3409 /* texture.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = texture.cpp; path = ../texture.cpp; sourceTree = SOURCE_ROOT; };
+		F7C65D780DBC453E00CD3409 /* texture.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = texture.h; path = ../texture.h; sourceTree = SOURCE_ROOT; };
+		F7C65D790DBC453E00CD3409 /* TPiece.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = TPiece.cpp; path = ../Pieces/TPiece.cpp; sourceTree = SOURCE_ROOT; };
+		F7C65D7A0DBC453E00CD3409 /* TPiece.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = TPiece.h; path = ../Pieces/TPiece.h; sourceTree = SOURCE_ROOT; };
+		F7C65D7B0DBC453E00CD3409 /* ZPiece.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ZPiece.cpp; path = ../Pieces/ZPiece.cpp; sourceTree = SOURCE_ROOT; };
+		F7C65D7C0DBC453E00CD3409 /* ZPiece.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ZPiece.h; path = ../Pieces/ZPiece.h; sourceTree = SOURCE_ROOT; };
+		F7C65ECC0DBC512900CD3409 /* libfreetype.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfreetype.a; path = /opt/local/lib/libfreetype.a; sourceTree = "<absolute>"; };
+		F7C65EDF0DBC522F00CD3409 /* libpng.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpng.a; path = /opt/local/lib/libpng.a; sourceTree = "<absolute>"; };
+		F7C65F6F0DBC58EC00CD3409 /* APPL.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = APPL.icns; sourceTree = "<group>"; };
+		F7C65FBD0DBC6F0800CD3409 /* libz.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libz.a; path = lib/libz.a; sourceTree = "<group>"; };
+		F7C660700DBC7B4700CD3409 /* shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shadow.png; path = ../shadow.png; sourceTree = SOURCE_ROOT; };
+		F7C660710DBC7B4700CD3409 /* reflectionfade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = reflectionfade.png; path = ../reflectionfade.png; sourceTree = SOURCE_ROOT; };
+		F7C660740DBC7B7500CD3409 /* DINNeuzeitGroteskStd-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "DINNeuzeitGroteskStd-Light.otf"; path = "../DINNeuzeitGroteskStd-Light.otf"; sourceTree = SOURCE_ROOT; };
+		F7C660750DBC7B7500CD3409 /* blocktopleft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blocktopleft.png; path = ../blocktopleft.png; sourceTree = SOURCE_ROOT; };
+		F7C660760DBC7B7500CD3409 /* blocktop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blocktop.png; path = ../blocktop.png; sourceTree = SOURCE_ROOT; };
+		F7C660770DBC7B7500CD3409 /* blockleft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blockleft.png; path = ../blockleft.png; sourceTree = SOURCE_ROOT; };
+		F7C660780DBC7B7500CD3409 /* block.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = block.png; path = ../block.png; sourceTree = SOURCE_ROOT; };
+		F7C6607E0DBC7B8000CD3409 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg.png; path = ../bg.png; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5673FECB07B19E4E00AF4085 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5673FEDA07B19E9B00AF4085 /* GLUT.framework in Frameworks */,
+				5673FEDB07B19E9D00AF4085 /* OpenGL.framework in Frameworks */,
+				F7C65ECD0DBC512900CD3409 /* libfreetype.a in Frameworks */,
+				F7C65EE00DBC522F00CD3409 /* libpng.a in Frameworks */,
+				F7C65FBE0DBC6F0800CD3409 /* libz.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5607DA2C07B19B9D00C2151B = {
+			isa = PBXGroup;
+			children = (
+				F7C65F6C0DBC58DC00CD3409 /* Resources */,
+				F7C65ECB0DBC510C00CD3409 /* libs */,
+				5673FEC007B19E0000AF4085 /* OpenGL.framework */,
+				5607DA4107B19C0000C2151B /* GLUT.framework */,
+				5607DA4007B19BE500C2151B /* MilkBlocks */,
+				5673FE8407B19D4B00AF4085 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5607DA4007B19BE500C2151B /* MilkBlocks */ = {
+			isa = PBXGroup;
+			children = (
+				F7C65D490DBC453E00CD3409 /* Animatable.cpp */,
+				F7C65D4A0DBC453E00CD3409 /* Animatable.h */,
+				F7C65D4B0DBC453E00CD3409 /* Back.h */,
+				F7C65D4C0DBC453E00CD3409 /* bg.png */,
+				F7C65D4D0DBC453E00CD3409 /* Bitmap.cpp */,
+				F7C65D4E0DBC453E00CD3409 /* Bitmap.h */,
+				F7C65D4F0DBC453E00CD3409 /* Block.cpp */,
+				F7C65D500DBC453E00CD3409 /* Block.h */,
+				F7C65D510DBC453E00CD3409 /* block.png */,
+				F7C65D520DBC453E00CD3409 /* blockleft.png */,
+				F7C65D530DBC453E00CD3409 /* blocktop.png */,
+				F7C65D540DBC453E00CD3409 /* blocktopleft.png */,
+				F7C65D550DBC453E00CD3409 /* Circ.h */,
+				F7C65D560DBC453E00CD3409 /* Cubic.h */,
+				F7C65D570DBC453E00CD3409 /* DINNeuzeitGroteskStd-Light.otf */,
+				F7C65D580DBC453E00CD3409 /* Elastic.h */,
+				F7C65D590DBC453E00CD3409 /* Expo.h */,
+				F7C65D5A0DBC453E00CD3409 /* font.cpp */,
+				F7C65D5B0DBC453E00CD3409 /* font.h */,
+				F7C65D5C0DBC453E00CD3409 /* Grid.cpp */,
+				F7C65D5D0DBC453E00CD3409 /* Grid.h */,
+				F7C65D5E0DBC453E00CD3409 /* HUD.h */,
+				F7C65D5F0DBC453E00CD3409 /* IPiece.cpp */,
+				F7C65D600DBC453E00CD3409 /* IPiece.h */,
+				F7C65D610DBC453E00CD3409 /* JPiece.cpp */,
+				F7C65D620DBC453E00CD3409 /* JPiece.h */,
+				F7C65D630DBC453E00CD3409 /* Linear.h */,
+				F7C65D640DBC453E00CD3409 /* LPiece.cpp */,
+				F7C65D650DBC453E00CD3409 /* LPiece.h */,
+				F7C65D660DBC453E00CD3409 /* milkblocks-Info.plist */,
+				F7C65D670DBC453E00CD3409 /* milkblocks.app */,
+				F7C65D680DBC453E00CD3409 /* milkblocks.cpp */,
+				F7C65D690DBC453E00CD3409 /* milkblocks.h */,
+				F7C65D6A0DBC453E00CD3409 /* OPiece.cpp */,
+				F7C65D6B0DBC453E00CD3409 /* OPiece.h */,
+				F7C65D6C0DBC453E00CD3409 /* Piece.cpp */,
+				F7C65D6D0DBC453E00CD3409 /* Piece.h */,
+				F7C65D6E0DBC453E00CD3409 /* Quad.h */,
+				F7C65D6F0DBC453E00CD3409 /* Quart.h */,
+				F7C65D700DBC453E00CD3409 /* Quint.h */,
+				F7C65D710DBC453E00CD3409 /* Random.h */,
+				F7C65D720DBC453E00CD3409 /* reflectionfade.png */,
+				F7C65D730DBC453E00CD3409 /* shadow.png */,
+				F7C65D740DBC453E00CD3409 /* Sine.h */,
+				F7C65D750DBC453E00CD3409 /* SPiece.cpp */,
+				F7C65D760DBC453E00CD3409 /* SPiece.h */,
+				F7C65D770DBC453E00CD3409 /* texture.cpp */,
+				F7C65D780DBC453E00CD3409 /* texture.h */,
+				F7C65D790DBC453E00CD3409 /* TPiece.cpp */,
+				F7C65D7A0DBC453E00CD3409 /* TPiece.h */,
+				F7C65D7B0DBC453E00CD3409 /* ZPiece.cpp */,
+				F7C65D7C0DBC453E00CD3409 /* ZPiece.h */,
+			);
+			name = MilkBlocks;
+			sourceTree = "<group>";
+		};
+		5673FE8407B19D4B00AF4085 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5673FECD07B19E4E00AF4085 /* MilkBlocks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7C65ECB0DBC510C00CD3409 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				F7C65EDF0DBC522F00CD3409 /* libpng.a */,
+				F7C65ECC0DBC512900CD3409 /* libfreetype.a */,
+				F7C65FBD0DBC6F0800CD3409 /* libz.a */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+		F7C65F6C0DBC58DC00CD3409 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F7C65D100DBC437600CD3409 /* MilkBlocks-Info.plist */,
+				F7C65F6F0DBC58EC00CD3409 /* APPL.icns */,
+				F7C6607E0DBC7B8000CD3409 /* bg.png */,
+				F7C660750DBC7B7500CD3409 /* blocktopleft.png */,
+				F7C660760DBC7B7500CD3409 /* blocktop.png */,
+				F7C660770DBC7B7500CD3409 /* blockleft.png */,
+				F7C660780DBC7B7500CD3409 /* block.png */,
+				F7C660740DBC7B7500CD3409 /* DINNeuzeitGroteskStd-Light.otf */,
+				F7C660710DBC7B4700CD3409 /* reflectionfade.png */,
+				F7C660700DBC7B4700CD3409 /* shadow.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5673FECC07B19E4E00AF4085 /* MilkBlocks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0EC259F08BBC88F006E9215 /* Build configuration list for PBXNativeTarget "MilkBlocks" */;
+			buildPhases = (
+				5673FEC907B19E4E00AF4085 /* Resources */,
+				5673FECA07B19E4E00AF4085 /* Sources */,
+				5673FECB07B19E4E00AF4085 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MilkBlocks;
+			productName = MilkBlocks;
+			productReference = 5673FECD07B19E4E00AF4085 /* MilkBlocks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5607DA3007B19B9D00C2151B /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = F0EC25C708BBC88F006E9215 /* Build configuration list for PBXProject "MilkBlocks" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 0;
+			mainGroup = 5607DA2C07B19B9D00C2151B;
+			productRefGroup = 5673FE8407B19D4B00AF4085 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5673FECC07B19E4E00AF4085 /* MilkBlocks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5673FEC907B19E4E00AF4085 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7C65D110DBC437600CD3409 /* MilkBlocks-Info.plist in Resources */,
+				F7C65D7E0DBC453E00CD3409 /* bg.png in Resources */,
+				F7C65D810DBC453E00CD3409 /* block.png in Resources */,
+				F7C65D820DBC453E00CD3409 /* blockleft.png in Resources */,
+				F7C65D830DBC453E00CD3409 /* blocktop.png in Resources */,
+				F7C65D840DBC453E00CD3409 /* blocktopleft.png in Resources */,
+				F7C65D850DBC453E00CD3409 /* DINNeuzeitGroteskStd-Light.otf in Resources */,
+				F7C65D8B0DBC453E00CD3409 /* milkblocks-Info.plist in Resources */,
+				F7C65D900DBC453E00CD3409 /* reflectionfade.png in Resources */,
+				F7C65D910DBC453E00CD3409 /* shadow.png in Resources */,
+				F7C65F700DBC58EC00CD3409 /* APPL.icns in Resources */,
+				F7C660720DBC7B4700CD3409 /* shadow.png in Resources */,
+				F7C660730DBC7B4700CD3409 /* reflectionfade.png in Resources */,
+				F7C660790DBC7B7500CD3409 /* DINNeuzeitGroteskStd-Light.otf in Resources */,
+				F7C6607A0DBC7B7500CD3409 /* blocktopleft.png in Resources */,
+				F7C6607B0DBC7B7500CD3409 /* blocktop.png in Resources */,
+				F7C6607C0DBC7B7500CD3409 /* blockleft.png in Resources */,
+				F7C6607D0DBC7B7500CD3409 /* block.png in Resources */,
+				F7C6607F0DBC7B8000CD3409 /* bg.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5673FECA07B19E4E00AF4085 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7C65D7D0DBC453E00CD3409 /* Animatable.cpp in Sources */,
+				F7C65D7F0DBC453E00CD3409 /* Bitmap.cpp in Sources */,
+				F7C65D800DBC453E00CD3409 /* Block.cpp in Sources */,
+				F7C65D860DBC453E00CD3409 /* font.cpp in Sources */,
+				F7C65D870DBC453E00CD3409 /* Grid.cpp in Sources */,
+				F7C65D880DBC453E00CD3409 /* IPiece.cpp in Sources */,
+				F7C65D890DBC453E00CD3409 /* JPiece.cpp in Sources */,
+				F7C65D8A0DBC453E00CD3409 /* LPiece.cpp in Sources */,
+				F7C65D8D0DBC453E00CD3409 /* milkblocks.cpp in Sources */,
+				F7C65D8E0DBC453E00CD3409 /* OPiece.cpp in Sources */,
+				F7C65D8F0DBC453E00CD3409 /* Piece.cpp in Sources */,
+				F7C65D920DBC453E00CD3409 /* SPiece.cpp in Sources */,
+				F7C65D930DBC453E00CD3409 /* texture.cpp in Sources */,
+				F7C65D940DBC453E00CD3409 /* TPiece.cpp in Sources */,
+				F7C65D950DBC453E00CD3409 /* ZPiece.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F0EC25A008BBC88F006E9215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = MILK_MAC_OSX;
+				HEADER_SEARCH_PATHS = (
+					"$(HEADER_SEARCH_PATHS_QUOTED_1)",
+					"$(HEADER_SEARCH_PATHS_QUOTED_2)",
+				);
+				HEADER_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/include/freetype\"";
+				HEADER_SEARCH_PATHS_QUOTED_2 = "\"$(SRCROOT)/include\"";
+				INFOPLIST_FILE = "MilkBlocks-Info.plist";
+				INSTALL_PATH = "$(USER_APPS_DIR)";
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/lib\"";
+				PRODUCT_NAME = MilkBlocks;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		F0EC25A108BBC88F006E9215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					ppc,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = MILK_MAC_OSX;
+				HEADER_SEARCH_PATHS = (
+					"$(HEADER_SEARCH_PATHS_QUOTED_1)",
+					"$(HEADER_SEARCH_PATHS_QUOTED_2)",
+				);
+				HEADER_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/include/freetype\"";
+				HEADER_SEARCH_PATHS_QUOTED_2 = "\"$(SRCROOT)/include\"";
+				INFOPLIST_FILE = "MilkBlocks-Info.plist";
+				INSTALL_PATH = "$(USER_APPS_DIR)";
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/lib\"";
+				PRODUCT_NAME = MilkBlocks;
+			};
+			name = Release;
+		};
+		F0EC25C808BBC88F006E9215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		F0EC25C908BBC88F006E9215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0EC259F08BBC88F006E9215 /* Build configuration list for PBXNativeTarget "MilkBlocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0EC25A008BBC88F006E9215 /* Debug */,
+				F0EC25A108BBC88F006E9215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0EC25C708BBC88F006E9215 /* Build configuration list for PBXProject "MilkBlocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0EC25C808BBC88F006E9215 /* Debug */,
+				F0EC25C908BBC88F006E9215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5607DA3007B19B9D00C2151B /* Project object */;
+}
