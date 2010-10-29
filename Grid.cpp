@@ -123,7 +123,8 @@ void Grid::onKeyRelease( char action )
 			{
 				Faster = false;
 				_TickTime *= 2;
-				LastTickTime = glutGet( GLUT_ELAPSED_TIME )-_TickTime;
+				
+				LastTickTime = PlatformSingleton::getInstance()->GetElapsedMs() -_TickTime;
 			}
 			break;
 	}
@@ -145,7 +146,7 @@ void Grid::onKeyPress( char action )
 				}
 				CurrentPiece->x = CurrentPiece->IX*_CellSize;
 
-				mSlamRightTime = glutGet(GLUT_ELAPSED_TIME);
+				mSlamRightTime = PlatformSingleton::getInstance()->GetElapsedMs();
 			}
 			break;
 			
@@ -160,7 +161,7 @@ void Grid::onKeyPress( char action )
 				
 				CurrentPiece->x = CurrentPiece->IX*_CellSize;
 
-				mSlamLeftTime = glutGet(GLUT_ELAPSED_TIME);
+				mSlamLeftTime = PlatformSingleton::getInstance()->GetElapsedMs();
 			}
 			break;
 			
@@ -238,8 +239,9 @@ void Grid::onAdvance()
 {
 	if( GameOver ) return;
 	mReflectionUpdateRequired = false;
-	int time = glutGet( GLUT_ELAPSED_TIME );
-
+	
+	int time = PlatformSingleton::getInstance()->GetElapsedMs();
+	
 	if( CurrentPiece != NULL && !Dropping && mSlamRightTime != 0 && time - mSlamRightTime >= 140 )
 	{
 		SlamPieceRight();

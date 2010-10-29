@@ -26,6 +26,8 @@
 #include "font/font.h"
 #endif
 
+#include "PlatformSingleton.h"
+
 class HUD : public Animatable
 {
 	Piece* mNextPiece;
@@ -110,7 +112,9 @@ class HUD : public Animatable
 		{
 			sprintf( mLinesBuffer, "%d", grid->getLines() );
 			sprintf( mLevelBuffer, "%d", grid->getLevel() );
-			mAnimateScoreTime = glutGet( GLUT_ELAPSED_TIME );
+			
+			mAnimateScoreTime = PlatformSingleton::getInstance()->GetElapsedMs();
+			
 			mAnimateFromScore = mScoreNumber;
 			mAnimateToScore = grid->getScore();
 		}
@@ -119,7 +123,8 @@ class HUD : public Animatable
 		{
 			if( mAnimateToScore != mScoreNumber )
 			{
-				double f = (glutGet( GLUT_ELAPSED_TIME )-mAnimateScoreTime)/200.0;
+				double f = (PlatformSingleton::getInstance()->GetElapsedMs() -mAnimateScoreTime)/200.0;
+				
 				if( f > 1 ) f = 1;
 				mScoreNumber = (1.0 - f)*mAnimateFromScore + mAnimateToScore*f; 
 				strcpy( mScoreBuffer, Font::formatDigits(mScoreNumber) );

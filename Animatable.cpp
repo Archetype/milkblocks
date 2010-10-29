@@ -1,10 +1,11 @@
 #include "Animatable.h"
 #include "Easing/Linear.h"
+#include "PlatformSingleton.h"
 
 static int idx = 0;
 Animation::Animation( double* value, double target, double duration, void (*callback)( Animation*, Animatable*, void* ), double (*easer) (double t, double d), void* userdata )
 {
-	StartTime = glutGet( GLUT_ELAPSED_TIME );
+	StartTime = PlatformSingleton::getInstance()->GetElapsedMs();
 	Value = value;
 	Base = *Value;
 	Target = target;
@@ -95,7 +96,8 @@ void Animatable::UpdateAnimation( int time,  Animation** animation )
 
 void Animatable::UpdateAnimations()
 {
-	int time = glutGet( GLUT_ELAPSED_TIME );
+	int time = PlatformSingleton::getInstance()->GetElapsedMs();
+
 	UpdateAnimation( time, &alphaAnimation );
 	UpdateAnimation( time, &xAnimation );
 	UpdateAnimation( time, &yAnimation );
