@@ -41,10 +41,10 @@
 		682E28B31279F31C00B1B498 /* pngwrite.c in Sources */ = {isa = PBXBuildFile; fileRef = 682E28091279F31C00B1B498 /* pngwrite.c */; };
 		682E28B41279F31C00B1B498 /* pngwtran.c in Sources */ = {isa = PBXBuildFile; fileRef = 682E280A1279F31C00B1B498 /* pngwtran.c */; };
 		682E28B51279F31C00B1B498 /* pngwutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 682E280B1279F31C00B1B498 /* pngwutil.c */; };
+		688DFFD9127A4F000080E234 /* PlatformSingleton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 688DFFD7127A4F000080E234 /* PlatformSingleton.cpp */; };
 		68A4AB40127A2D0000663AC4 /* libfreetype.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 68A4AB3F127A2D0000663AC4 /* libfreetype.a */; };
 		68A4AC28127A432000663AC4 /* Platform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68A4AC22127A432000663AC4 /* Platform.cpp */; };
 		68A4AC29127A432000663AC4 /* PlatformIPhone.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68A4AC24127A432000663AC4 /* PlatformIPhone.cpp */; };
-		68A4AC2D127A43F300663AC4 /* PlatformSingleton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68A4AC2C127A43F300663AC4 /* PlatformSingleton.cpp */; };
 		68A4AC50127A46FC00663AC4 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68A4AC4F127A46FC00663AC4 /* GLUT.framework */; };
 		68A4AC5A127A474900663AC4 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68A4AC59127A474900663AC4 /* CoreFoundation.framework */; };
 		F7C65D110DBC437600CD3409 /* MilkBlocks-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F7C65D100DBC437600CD3409 /* MilkBlocks-Info.plist */; };
@@ -88,28 +88,28 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = 68A4AACE127A28B000663AC4 /* freetype.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 8D07F2C80486CC7A007CD1D0 /* freetype.framework */;
+			remoteGlobalIDString = 8D07F2C80486CC7A007CD1D0;
 			remoteInfo = freetype;
 		};
 		68A4AAD5127A28B000663AC4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68A4AACE127A28B000663AC4 /* freetype.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 00A688770B044721003F7FE5 /* libfreetype.a */;
+			remoteGlobalIDString = 00A688770B044721003F7FE5;
 			remoteInfo = freetypelib;
 		};
 		68A4AB24127A2C2700663AC4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68A4AACE127A28B000663AC4 /* freetype.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = 00A688760B044721003F7FE5 /* freetypelib */;
+			remoteGlobalIDString = 00A688760B044721003F7FE5;
 			remoteInfo = freetypelib;
 		};
 		68A4AB4B127A2E0500663AC4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68A4AACE127A28B000663AC4 /* freetype.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 68A4AB49127A2E0500663AC4 /* libiosStatic.a */;
+			remoteGlobalIDString = 68A4AB49127A2E0500663AC4;
 			remoteInfo = iosStatic;
 		};
 /* End PBXContainerItemProxy section */
@@ -163,6 +163,8 @@
 		682E28091279F31C00B1B498 /* pngwrite.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngwrite.c; sourceTree = "<group>"; };
 		682E280A1279F31C00B1B498 /* pngwtran.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngwtran.c; sourceTree = "<group>"; };
 		682E280B1279F31C00B1B498 /* pngwutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngwutil.c; sourceTree = "<group>"; };
+		688DFFD7127A4F000080E234 /* PlatformSingleton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PlatformSingleton.cpp; sourceTree = "<group>"; };
+		688DFFD8127A4F000080E234 /* PlatformSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlatformSingleton.h; sourceTree = "<group>"; };
 		68A4AACE127A28B000663AC4 /* freetype.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = freetype.xcodeproj; path = "../freetype-2.4.3/freetype.xcodeproj"; sourceTree = SOURCE_ROOT; };
 		68A4AB3F127A2D0000663AC4 /* libfreetype.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfreetype.a; path = "/Users/rmanson/github/milkblocks/freetype-2.4.3/build/Debug/libfreetype.a"; sourceTree = "<absolute>"; };
 		68A4AC21127A432000663AC4 /* Application.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Application.h; sourceTree = "<group>"; };
@@ -170,8 +172,6 @@
 		68A4AC23127A432000663AC4 /* Platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Platform.h; sourceTree = "<group>"; };
 		68A4AC24127A432000663AC4 /* PlatformIPhone.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PlatformIPhone.cpp; sourceTree = "<group>"; };
 		68A4AC25127A432000663AC4 /* PlatformIPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlatformIPhone.h; sourceTree = "<group>"; };
-		68A4AC2B127A43F300663AC4 /* PlatformSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlatformSingleton.h; sourceTree = "<group>"; };
-		68A4AC2C127A43F300663AC4 /* PlatformSingleton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PlatformSingleton.cpp; sourceTree = "<group>"; };
 		68A4AC4F127A46FC00663AC4 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 		68A4AC59127A474900663AC4 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		F7C65D100DBC437600CD3409 /* MilkBlocks-Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; path = "MilkBlocks-Info.plist"; sourceTree = "<group>"; };
@@ -266,8 +266,6 @@
 				5607DA4007B19BE500C2151B /* MilkBlocks */,
 				5673FE8407B19D4B00AF4085 /* Products */,
 				68A4AB3F127A2D0000663AC4 /* libfreetype.a */,
-				68A4AC2B127A43F300663AC4 /* PlatformSingleton.h */,
-				68A4AC2C127A43F300663AC4 /* PlatformSingleton.cpp */,
 				68A4AC4F127A46FC00663AC4 /* GLUT.framework */,
 				68A4AC59127A474900663AC4 /* CoreFoundation.framework */,
 			);
@@ -415,6 +413,8 @@
 		68A4AC20127A432000663AC4 /* Platform */ = {
 			isa = PBXGroup;
 			children = (
+				688DFFD7127A4F000080E234 /* PlatformSingleton.cpp */,
+				688DFFD8127A4F000080E234 /* PlatformSingleton.h */,
 				68A4AC21127A432000663AC4 /* Application.h */,
 				68A4AC22127A432000663AC4 /* Platform.cpp */,
 				68A4AC23127A432000663AC4 /* Platform.h */,
@@ -519,10 +519,9 @@
 		68A4AB4C127A2E0500663AC4 /* libiosStatic.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			name = libiosStatic.a;
-			path = build/Debug/libiosStatic.a;
+			path = libiosStatic.a;
 			remoteRef = 68A4AB4B127A2E0500663AC4 /* PBXContainerItemProxy */;
-			sourceTree = "<group>";
+			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
 
@@ -610,7 +609,7 @@
 				682E28B51279F31C00B1B498 /* pngwutil.c in Sources */,
 				68A4AC28127A432000663AC4 /* Platform.cpp in Sources */,
 				68A4AC29127A432000663AC4 /* PlatformIPhone.cpp in Sources */,
-				68A4AC2D127A43F300663AC4 /* PlatformSingleton.cpp in Sources */,
+				688DFFD9127A4F000080E234 /* PlatformSingleton.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
